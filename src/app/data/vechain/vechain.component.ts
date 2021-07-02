@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-vechain',
+  selector: 'app-data-vechain',
   templateUrl: './vechain.component.html',
   styleUrls: ['./vechain.component.scss']
 })

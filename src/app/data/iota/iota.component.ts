@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-iota',
+  selector: 'app-data-iota',
   templateUrl: './iota.component.html',
   styleUrls: ['./iota.component.scss']
 })
