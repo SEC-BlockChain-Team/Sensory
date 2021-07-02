@@ -10,6 +10,7 @@ import { EthereumComponent } from './ethereum/ethereum.component';
 import { VechainComponent } from './vechain/vechain.component';
 import { IotaComponent } from './iota/iota.component';
 import { SensorsComponent } from './sensors/sensors.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SensorsComponent } from './sensors/sensors.component';
     EthereumComponent,
     VechainComponent,
     IotaComponent,
-    SensorsComponent
+    SensorsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
