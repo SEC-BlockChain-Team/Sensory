@@ -11,7 +11,10 @@ import { VechainComponent } from './vechain/vechain.component';
 import { IotaComponent } from './iota/iota.component';
 import { SensorsComponent } from './sensors/sensors.component';
 import { FooterComponent } from './footer/footer.component';
+
+// Material Imports
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTabsModule} from "@angular/material/tabs";
 
 @NgModule({
   declarations: [
@@ -28,7 +31,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
