@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ethereum',
+  selector: 'app-data-ethereum',
   templateUrl: './ethereum.component.html',
   styleUrls: ['./ethereum.component.scss']
 })
