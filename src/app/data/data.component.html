@@ -1,4 +1,12 @@
-<p>data works!</p>
-<app-ethereum></app-ethereum>
-<app-vechain></app-vechain>
-<app-iota></app-iota>
+<mat-tab-group mat-align-tabs="center" mat-stretch-tabs
+               animationDuration="1000ms">
+  <mat-tab label="Ethereum">
+    <app-ethereum></app-ethereum>
+  </mat-tab>
+  <mat-tab label="Vechain">
+    <app-vechain></app-vechain>
+  </mat-tab>
+  <mat-tab label="IOTA">
+    <app-iota></app-iota>
+  </mat-tab>
+</mat-tab-group>

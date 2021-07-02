@@ -12,6 +12,10 @@ import { IotaComponent } from './iota/iota.component';
 import { SensorsComponent } from './sensors/sensors.component';
 import { FooterComponent } from './footer/footer.component';
 
+// Material Imports
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTabsModule} from "@angular/material/tabs";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,9 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
