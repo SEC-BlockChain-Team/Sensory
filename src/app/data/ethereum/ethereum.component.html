@@ -1,1 +1,21 @@
-<p>ethereum works!</p>
+<div class="container">
+  <button class="btn btn-primary btn-lg"
+          (click)="sendTransaction()">
+    Send Data
+  </button>
+  <div class="data content" *ngIf="transactionData">
+    {{transactionData}}
+  </div>
+</div>
+<div class="container">
+  <button class="btn btn-primary btn-lg"
+          (click)="getData()">
+    Get Data
+  </button>
+  <div class="data content" *ngIf="sensorData">
+    {{sensorData}}
+  </div>
+  <div class="data content">
+    {{dataCounter}}
+  </div>
+</div>
